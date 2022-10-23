@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif, serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/*header*/
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/blue_bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.header .container{
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    padding-top:30px;
+}
+/*end header*/
+/*nav*/
+.header .container .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .container .nav .logo{
+    width: 500px;
+    display: flex;
+    align-items: center; 
+}
+
+.header .container .nav .logo .links{
+    width: 400px;
+    height: 20px;
+    position: relative;
+   
+}
+
+
+.header .container .nav .logo .links a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: #7c7c8a;
+}
+
+.header .container .nav .logo .links a:first-of-type{
+    border-bottom: 3px solid #9a27bd;
+}
+
+.header .container .nav .logo a:hover{
+    color: #b723e4;
+}
+
+.header .container .nav button{
+    width: 90px;
+    height: 30px;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+/*end nav*/
+/*landing*/
+.header .container .landing{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.header .container .landing .text{
+    width: 50%;
+    padding-bottom: 90px;
+}
+
+.header .container .landing .text h1{
+    font-size: 55px;
+    color: #9A9AA4;
+}
+
+.header .container .landing .text h1 span{
+    color: #9a27bd;
+}
+
+.header .container .landing .text p{
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    color: #7c7c8a;
+}
+
+.header .container .landing .img{
+    width: 50%;
+    height: 100%;
+    background-image: url(images/landing_bg.png);
+    background-size: cover;
+    position: relative;
+    bottom: 0px;
+    top: 30px;
+    left: 50px;
+}
+
+.header .container .landing .img .img1{
+    width: 50%;
+    height: 90%;
+    position: absolute;
+    left: 120px;
+    bottom: 70px;
+}
+.header .container .landing .img .img2{
+   width: 350px;
+   height: 160px;
+   position: absolute;
+   bottom: 0;
+   left: 110px;
+}
+
+.header .wave{
+    width: 100%;
+}
+
+.header .wave img{
+    width: 80%;
+    position: absolute;
+    top: 610px;
+}
+/*end landing*/
+/*section*/
+.section{
+    width: 100%;
+    height: 120vh;
+    padding-top: 100px;
+}
+
+.section .container{
+    width: 80%;
+    height: 100%;
+    margin: auto; 
+    position: relative; 
+}
+
+.section .container .im{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    top: -30px;
+    left: 110px;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+
+
+
+.section .container .textt{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section .container .textt .text1{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+.section .container .textt .text2{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.section .container .textt .text3{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.section .container .textt  img{
+    margin-left: 30px;
+}
+
+.section .container .textt h3{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 750;
+    color: #747481;
+}
+
+.section .container .textt P{
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #7c7c8a;
+}
+
+.section .container .textt .text3 .img{
+    width: 350px;
+    height: 290px;
+    background-image: url(images/why_kudzoka_bg.png);
+    background-size: cover;
+
+}
+
+
+section .container .textt .text3 .te{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff; 
+}
+
+section .container .textt .text3 .te h6{
+    font-size: 13px;
+}
+
+section .container .textt .text3 .te p{
+    font-size: 40px;
+    color: #fff;
+}
+/*end section*/
+/*section 2*/
+.section1{
+    
+    width: 100%;
+    height: 70vh;
+}
+
+.section1 .container{
+    padding-top: 120px;
+    width: 80%;
+    height: 100%;
+    margin: auto; 
+}
+
+.section1 .container .text{
+    width: 100%;
+    text-align: center;
+    color: #7c7c8a;
+}
+
+.section1 .container .img{
+    margin-left: 50px;
+}
+
+
+
+.section1 .container .text h3{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*end section 2*/
+/*footer*/
+footer{
+    width: 100%;
+    height: 90vh;
+    background-image: url(images/Group\ 1131.png);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    position: relative;
+    left: -40px;
+    
+}
+
+footer .container{
+    width: 80%;
+    height: 100%;
+    margin: auto; 
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container .link{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+footer .container .link .button button{
+    width: 109px;
+    margin-right: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+footer .container .link .button button:hover{
+    box-shadow: 5px 5px 10px;
+}
+
+footer .container .link button img{
+    margin: 5px;
+}
+
+footer .container .link div{
+    margin-top: 50px;
+}
+
+footer .container .link .icon a{
+    margin-right: 35px;
+}
+
+footer .container .link .links a{
+    margin-right: 35px;
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .container .link .links a:hover{
+    color: #8b0eb1;
+}
+
+footer .container .img{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+footer .container .img img{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 120px;
+}
+@media (min-width: 400px) and (max-width: 868px){
+    footer{
+        height: 30vh;
+        background-size: 1000px;
+        background-repeat: no-repeat;
+    }
+    footer .button{
+        display: none;
+    }
+    .landing .text{
+        width: 100%;
+       margin-left: 200px;
+    }
+
+    .wave img{
+        margin-top: 400px;
+    }
+    .header .container .landing .img {
+       display: none;
+        
+    }
+
+    .section{
+        height: 80vh;
+    } 
+    .textt{
+        font-size: 10px;
+    }
+
+    .textt img{
+        width: 130px; 
+    }
+    .im img{
+        width: 500px;
+        height: 450px;
+    }
+
+   
+   
+    .text3{
+        display: flex;
+        justify-content: space-between;
+    }
+   
+   
+}
+
+/*end footer*/
